@@ -10,8 +10,13 @@ OpenCV를 이용해 사진을 카툰풍으로 바꿔주는 프로그램입니다
 7. 원본 이미지에 효과를 준 이미지를 혼합해줍니다. (bitwise_and를 이용했습니다)
 8. 완성된 이미지를 창에 띄워줍니다.
 
-이런 과정을 통해 만화 같은 느낌이 잘 표현되는 사진은 다음과 같습니다.
+
+이런 과정을 통해 완성된 만화 같은 느낌이 잘 표현되는 사진은 다음과 같습니다.
 (https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/b9868319-4fc6-4b96-a8a3-dc5a2b2c1fd8)
 
 반대로 잘 표현되지 않은 사진은 다음과 같습니다.
 (https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/fda47ea7-90f9-4abe-84d3-dde2aae93a34)
+
+이를 통해 이 프로그램의 한계를 알 수 있었습니다.
+첫번째로 화질이 좋지 않은 사진은 외곽선 인식이 어려워 만화 같은 느낌이 잘 드러나지 않는다는 점입니다.
+잘 표현되지 않은 사진의 원본은 ![20180117519186](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/3db2f8b8-5dbc-45e3-8995-ff54177a6dfc)
