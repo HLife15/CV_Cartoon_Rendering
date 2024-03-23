@@ -6,7 +6,7 @@ OpenCV를 이용해 사진을 카툰풍으로 바꿔주는 프로그램입니다
 1. 이미지를 불러옵니다.
 2. 불러온 이미지를 흑백으로 바꿔줍니다. (cvtColor를 이용했습니다)
 3. 흑백 이미지에 Bilateral Filter 효과를 줍니다. (다른 Smoothing Filter들과 달리 Bilateral Filter는 외곽선의 손상을 최소화하며 Smoothing이 가능합니다)
-4. 그 이미지에 Canny Edge Detector를 적용합니다. (Bilateral Filter로 보정된 이미지기 때문에 보다 더 정확하게 외곽선을 판단해 그립니다)
+4. 그 이미지에 Canny Edge Detector를 적용합니다. (Bilateral Filter로 보정된 이미지기 때문에 원본 이미지보다 더 깔끔해 보다 정확하게 외곽선을 판단해 그립니다)
 5. 이미지를 반전시킵니다. (bitwise_not을 이용했으며 이로서 흰 배경에 검은 선으로 묘사가 됩니다)
 6. 흑백 이미지를 다시 컬러로 변환해줍니다. (cvtColor를 이용했습니다)
 7. 원본 이미지에 효과를 준 이미지를 혼합해줍니다. (bitwise_and를 이용했습니다)
