@@ -27,7 +27,7 @@ OpenCV를 이용해 사진을 카툰풍으로 바꿔주는 프로그램입니다
 
 
 두번째 문제는 투명한 물체를 들고 있는 사람의 사진에 작업할 때 나타났습니다.<br>
-![bad1](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/6b5afce7-1a9f-487b-a49f-9fd13c2f95ec)
+![bad1](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/6b5afce7-1a9f-487b-a49f-9fd13c2f95ec)<br>
 전체적으로 만화 같은 느낌이 잘 나타났지만 위 사진에서 표시된 대로 투명한 잔의 외곽선이 제대로 표시가 되지 않으면서 뒷배경과 약간 섞이게 되었습니다.<br>
 ![image2](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/c9b54989-5c5e-40ce-9847-aaa82bab7a77)<br>
 원본 사진은 투명한 잔과 뒷배경이 어느 정도 구분이 갔다는 점을 생각해보면 이 프로그램의 한계라고 볼 수 있겠습니다.<br><br>
@@ -35,7 +35,7 @@ OpenCV를 이용해 사진을 카툰풍으로 바꿔주는 프로그램입니다
 
 
 마지막으로 작은 글씨 같은 경우 뭉개지는 경우가 많았다는 점이었습니다.<br>
-![bad2](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/cee0542c-c9d4-4461-9df1-ff57ad082aa3)
+![bad2](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/cee0542c-c9d4-4461-9df1-ff57ad082aa3)<br>
 위 사진에 표시된 대로 사진 상에서 멀리 있는 글씨들은 형태가 뭉개져 제대로 알아볼 수 없었습니다.<br>
 ![image7](https://github.com/HLife15/CV_Cartoon_Rendering/assets/162321808/9018890a-a905-4ee2-b6ac-a7cae5333b7f)<br>
 원본 사진의 경우 글씨가 작긴 해도 어느 정도 알아볼 수 있다는 점을 생각해보면 이 역시 한계라고 생각이 됩니다.<br>
